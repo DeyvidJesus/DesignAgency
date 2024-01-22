@@ -5,7 +5,7 @@ export function Header() {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <header className="z-50 fixed max-w-full w-screen flex items-center justify-between sm:px-10 lg:px-20 bg-light-green h-14">
+    <header className="z-50 fixed max-w-full w-screen flex items-center justify-between sm:px-10 lg:px-20 bg-light-green h-20">
       <img src="/logo.svg" alt="" className="w-40" />
       <ResponsiveMenu />
       <nav className="sm:hidden md:flex md:w-2/3 justify-between items-center font-medium">
