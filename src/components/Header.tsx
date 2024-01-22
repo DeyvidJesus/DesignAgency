@@ -12,7 +12,7 @@ export function Header() {
         <a className="text-black no-underline hover:underline flex items-center" href="#Services" 
         onMouseOver={() => setIsHover(!isHover)}>Services <img className="ml-3" src="/dropdown_arrow.svg" alt="" /></a>
         {isHover && (
-          <nav className="absolute flex flex-col px-4 py-2 bg-white top-10 left-50">
+          <nav className="absolute flex flex-col px-4 py-2 bg-white top-14 left-50">
             <a className="my-2 hover:underline" href="#">Customer Relationship Management</a>
             <a className="my-2 hover:underline" href="#">Customer Support</a>
             <a className="my-2 hover:underline" href="#">Email Marketing</a>
