@@ -1,7 +1,7 @@
 export function Intro() {
   return (
     <main className="bg-light-green flex flex-col items-center w-screen max-w-full pt-16">
-      <div className="flex items-center sm:px-10 md:px-14 lg:px-20 py-8">
+      <div className="flex items-center sm:px-10 md:px-14 lg:px-20 sm:py-24 md:pt-12 md:py-0">
         <div>
           <h1 className="sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold">Increase Your Customers Loyalty and Satisfaction</h1>
           <p className="font-medium md:text-sm lg:text-md mt-3 mb-8">We help businesses like yours earn more customers, standout from competitors, make more money.</p>
