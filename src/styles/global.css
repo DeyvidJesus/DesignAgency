@@ -9,12 +9,23 @@ html {
 
 @media (max-width: 1080px) {
   html {
-      font-size: 93.75%;
+    font-size: 93.75%;
   }
 }
 
 @media (max-width: 720px) {
   html {
-      font-size: 87.5%;
+    font-size: 87.5%;
   }
+}
+
+.slider-shadow {
+  -webkit-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
+}
+
+.open .icon-container {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease-in-out;
 }
