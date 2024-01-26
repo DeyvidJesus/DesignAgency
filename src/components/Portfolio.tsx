@@ -1,6 +1,6 @@
 export function Portfolio() {
   return (
-    <section className="p-20">
+    <section id="OurPortfolio" className="p-20">
       <h2 className="text-dark-green font-medium text-lg mb-3">OUR PORTFOLIO</h2>
       <p className="font-semibold text-3xl">We provide the Perfect Solution <br /> to your business growth</p>
       <div className="flex sm:flex-col md:flex-row sm:items-center md:items-start justify-between">
