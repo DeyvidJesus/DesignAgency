@@ -15,10 +15,10 @@ export function Footer() {
         <div>
           <h4 className="font-bold text-xl mb-4">Quick Links</h4>
           <nav className="flex flex-col font-medium justify-between h-40 text-lg">
-            <a className="hover:underline" href="#">Services</a>
-            <a className="hover:underline" href="#">Portfolio</a>
-            <a className="hover:underline" href="#">About Us</a>
-            <a className="hover:underline" href="#">Contact Us</a>
+            <a className="hover:underline" href="#WhatWeDo">What We Do</a>
+            <a className="hover:underline" href="#OurPortfolio">Portfolio</a>
+            <a className="hover:underline" href="#Testimonials">Testimonials</a>
+            <a className="hover:underline" href="#Subscribe">Subscribe</a>
           </nav>
         </div>
       </div>
