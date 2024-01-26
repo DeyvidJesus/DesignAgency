@@ -67,7 +67,7 @@ export function Testimonials() {
   };
 
   return (
-    <section>
+    <section id="Testimonials">
       <div className="py-14 sm:px-14 md:px-20 flex justify-between flex-col">
         <h2 className="text-dark-green font-medium text-lg mb-3">TESTIMONIALS</h2>
         <p className="font-semibold sm:text-2xl md:text-3xl">See What Our Customer<br /> Say About Us</p>
