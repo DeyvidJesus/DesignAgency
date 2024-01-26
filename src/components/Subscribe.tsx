@@ -1,6 +1,6 @@
 export function Subscribe() {
   return (
-    <section className="flex px-20 pb-40 pt-10 flex-col items-center">
+    <section id="Subscribe" className="flex px-20 pb-40 pt-10 flex-col items-center">
       <h2 className="text-dark-green font-medium text-lg mb-3">SUBSCRIBE</h2>
       <p className="font-semibold sm:text-2xl md:text-3xl text-center">Subscribe To Get The Latest<br />News About Us</p>
       <small className="text-light-gray mt-2 mb-10 text-center">Please Drop Your Email Below To Get Daily Update About What We Do</small>
