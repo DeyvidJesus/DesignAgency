@@ -1,6 +1,6 @@
 export function WhatWeDo() {
   return (
-    <section className="w-screen max-w-full mt-6">
+    <section id="WhatWeDo" className="w-screen max-w-full mt-6">
       <div className="sm:px-10 md:px-20 md:py-14">
         <h2 className="text-dark-green font-medium text-lg mb-3">WHAT WE DO</h2>
         <p className="font-semibold sm:text-2xl md:text-3xl">We provide the Perfect Solution <br /> to your business growth</p>
